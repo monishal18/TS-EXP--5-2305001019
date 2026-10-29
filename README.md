@@ -19,6 +19,19 @@ To develop a simple mathematical model for population growth using Python and pr
 5. Calculate the predicted population.
 6. Forecast population for future years.
 7. Plot actual, predicted, and forecast values.
+ 
+##  Observation
+The population shows an increasing trend over time. A linear model is fitted to the historical data to estimate population growth and forecast future population.
+
+The model is represented by:
+
+P = a + bt
+
+Where:
+- P = predicted population
+- a = starting population
+- b = growth per year
+- t = time
 
 ##  Program
 ```
@@ -113,18 +126,7 @@ plt.show()
  <img width="602" height="473" alt="image" src="https://github.com/user-attachments/assets/40073cfe-85a6-4a61-a630-5a0e8816fa84" />
 
 
-##  Observation
-The population shows an increasing trend over time. A linear model is fitted to the historical data to estimate population growth and forecast future population.
 
-The model is represented by:
-
-P = a + bt
-
-Where:
-- P = predicted population
-- a = starting population
-- b = growth per year
-- t = time
 
 ##  Result
 Thus, a simple population growth model was developed using Python. The model was used to estimate future population and visualize the actual, predicted, and forecast population trends.
